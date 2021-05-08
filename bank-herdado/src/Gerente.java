@@ -22,7 +22,7 @@ public class Gerente extends Funcionario{
 	public double getBonificacao() {
 		System.out.println("Chamando o método de bonificacao do Gerente");
 		// super é usado quando algo está definido na classe mãe
-		return super.getBonificacao() + super.getSalario();
+		return super.getSalario();
 	}
 	
 }
