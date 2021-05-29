@@ -1,9 +1,11 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 // não herda os construtores
 public class ContaCorrente extends Conta implements Tributavel{
 
-	
+
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero); // chamando o construtor da classe mãe
 	}
